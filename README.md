@@ -2,7 +2,7 @@
 
 Um assistente de IA que responde, na hora, as clientes que respondem aos stories de uma loja de cosméticos de bairro. O que precisa de cuidado vai para a equipe com um rascunho pronto.
 
-**Demo:** _link publicado em breve_. **Proposta para o dono:** `/proposta`. **Relatório de viabilidade:** [`content/relatorio.md`](content/relatorio.md)
+**Demo:** [assistente-loja.vercel.app](https://assistente-loja.vercel.app). **Proposta para o dono:** [`/proposta`](https://assistente-loja.vercel.app/proposta). **Relatório de viabilidade:** [`content/relatorio.md`](content/relatorio.md)
 
 ## O problema
 
