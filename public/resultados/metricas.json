@@ -1,0 +1,17 @@
+{
+  "total": 38,
+  "acertos": 38,
+  "errosLeves": 0,
+  "errosGraves": 0,
+  "taxaAutomatica": 0.5526315789473685,
+  "horasPorMes": 33.15789473684211,
+  "custoPorMensagemUSD": 0.0004015526315789474,
+  "custoMensalBRL": 2.650247368421053,
+  "premissas": {
+    "mensagensPorMes": 1200,
+    "minutosPorMensagem": 3,
+    "dolar": 5.5,
+    "precoEntradaPorMTok": 0.1,
+    "precoSaidaPorMTok": 0.5
+  }
+}

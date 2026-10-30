@@ -1,0 +1,275 @@
+.pagina {
+  width: 100%;
+  max-width: 1080px;
+  min-width: 0;
+  margin: 0 auto;
+  padding: 40px 16px 64px;
+}
+
+.cabecalho {
+  max-width: 68ch;
+  margin-bottom: 28px;
+}
+
+.sobretitulo {
+  margin-bottom: 12px;
+  color: var(--tinta-suave);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.cabecalho .abertura {
+  margin-bottom: 12px;
+  color: var(--tinta);
+  font-family: var(--font-titulo), system-ui, sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.cabecalho p {
+  color: var(--tinta-suave);
+}
+
+.resultados {
+  min-width: 0;
+  margin-bottom: 48px;
+}
+
+.numeros {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid var(--linha);
+  border-top: 3px solid var(--loja);
+  border-radius: 0 0 16px 16px;
+  background: var(--superficie);
+}
+
+.numero {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 10px;
+  padding: 28px 22px;
+}
+
+.numero + .numero {
+  border-left: 1px solid var(--linha);
+}
+
+.numero dt {
+  max-width: 22ch;
+  color: var(--tinta-suave);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.numero dd {
+  order: -1;
+  color: var(--tinta);
+  font-family: var(--font-titulo), system-ui, sans-serif;
+  font-size: clamp(2rem, 4.3vw, 3.5rem);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.numero:first-child dd {
+  color: var(--automatico);
+}
+
+.premissas {
+  max-width: 68ch;
+  margin-top: 12px;
+  color: var(--tinta-suave);
+  font-size: 0.8rem;
+}
+
+.texto {
+  max-width: 68ch;
+  margin: 0 auto;
+  overflow-wrap: anywhere;
+  line-height: 1.75;
+}
+
+.texto h1,
+.texto h2,
+.texto h3,
+.texto h4,
+.texto h5,
+.texto h6 {
+  color: var(--tinta);
+  font-family: var(--font-titulo), system-ui, sans-serif;
+  text-wrap: balance;
+}
+
+.texto h1 {
+  margin-bottom: 24px;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.texto h2 {
+  margin: 44px 0 16px;
+  padding-top: 24px;
+  border-top: 1px solid var(--linha);
+  font-size: clamp(1.3rem, 3vw, 1.65rem);
+}
+
+.texto h3,
+.texto h4,
+.texto h5,
+.texto h6 {
+  margin: 28px 0 12px;
+}
+
+.texto p,
+.texto ul,
+.texto ol,
+.texto blockquote,
+.texto pre {
+  margin-bottom: 20px;
+}
+
+.texto ul,
+.texto ol {
+  padding-left: 24px;
+}
+
+.texto li + li {
+  margin-top: 10px;
+}
+
+.texto li::marker {
+  color: var(--tinta-suave);
+}
+
+.texto a,
+.rodape a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.texto a:hover,
+.rodape a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.texto blockquote {
+  padding-left: 20px;
+  border-left: 3px solid var(--dono);
+  color: var(--tinta-suave);
+}
+
+.texto pre {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 16px;
+  border: 1px solid var(--linha);
+  background: var(--superficie);
+}
+
+.texto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.texto hr {
+  margin: 32px 0;
+  border: 0;
+  border-top: 1px solid var(--linha);
+}
+
+.tabela {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 24px 0;
+  border: 1px solid var(--linha);
+  border-radius: 8px;
+  background: var(--superficie);
+}
+
+.tabela table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.tabela th,
+.tabela td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tabela th {
+  background: var(--fundo);
+  font-weight: 600;
+}
+
+.tabela tr + tr,
+.tabela tbody tr:first-child {
+  border-top: 1px solid var(--linha);
+}
+
+.tabela th + th,
+.tabela td + td {
+  border-left: 1px solid var(--linha);
+}
+
+.rodape {
+  display: flex;
+  max-width: 68ch;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 44px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--linha);
+  color: var(--tinta-suave);
+  font-size: 0.9rem;
+}
+
+.rodape a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+}
+
+.pagina :focus-visible {
+  outline: 3px solid var(--foco);
+  outline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+  .pagina {
+    padding-top: 24px;
+  }
+
+  .numeros {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .numero {
+    padding: 22px 16px;
+  }
+
+  .numero:nth-child(odd) {
+    border-left: 0;
+  }
+
+  .numero:nth-child(n + 3) {
+    border-top: 1px solid var(--linha);
+  }
+
+  .numero dd {
+    font-size: clamp(1.75rem, 7vw, 2.75rem);
+  }
+
+  .resultados {
+    margin-bottom: 36px;
+  }
+}

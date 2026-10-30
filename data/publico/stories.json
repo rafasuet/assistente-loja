@@ -1,0 +1,106 @@
+[
+  {
+    "id": "s-nutri-enrich",
+    "legenda": "Tem na Bela Flor: Wella Invigo Nutri-Enrich, shampoo e condicionador 1 litro",
+    "produtos": [
+      { "id": "ne-shampoo", "nome": "Shampoo Wella Invigo Nutri-Enrich 1L", "preco": 189.9, "linha": "Nutri-Enrich" },
+      { "id": "ne-cond", "nome": "Condicionador Wella Invigo Nutri-Enrich 1L", "preco": 199.9, "linha": "Nutri-Enrich" }
+    ],
+    "complementos": [
+      { "id": "ne-mascara", "nome": "Máscara Wella Invigo Nutri-Enrich 500g", "preco": 319.9, "linha": "Nutri-Enrich" }
+    ]
+  },
+  {
+    "id": "s-fusion",
+    "legenda": "Tem na Bela Flor: Wella Fusion, shampoo e condicionador 1 litro",
+    "produtos": [
+      { "id": "fu-shampoo", "nome": "Shampoo Wella Fusion 1L", "preco": 219.9, "linha": "Fusion" },
+      { "id": "fu-cond", "nome": "Condicionador Wella Fusion 1L", "preco": 239.9, "linha": "Fusion" }
+    ],
+    "complementos": [
+      { "id": "fu-mascara", "nome": "Máscara Wella Fusion 500g", "preco": 264.9, "linha": "Fusion" }
+    ]
+  },
+  {
+    "id": "s-mascaras-wella",
+    "legenda": "Tem na Bela Flor: máscaras Wella Nutri-Enrich e Fusion",
+    "produtos": [
+      { "id": "ne-mascara", "nome": "Máscara Wella Invigo Nutri-Enrich 500g", "preco": 319.9, "linha": "Nutri-Enrich" },
+      { "id": "fu-mascara", "nome": "Máscara Wella Fusion 500g", "preco": 264.9, "linha": "Fusion" }
+    ],
+    "complementos": []
+  },
+  {
+    "id": "s-alicates",
+    "legenda": "Alicates para unhas dos pés",
+    "produtos": [
+      { "id": "alicate-inox", "nome": "Alicate para unhas dos pés Inox", "preco": 42.9, "linha": null },
+      { "id": "alicate-inox-pro", "nome": "Alicate para unhas dos pés Inox Profissional", "preco": 59.9, "linha": null }
+    ],
+    "complementos": []
+  },
+  {
+    "id": "s-novex",
+    "legenda": "Blindagem Novex",
+    "produtos": [
+      { "id": "novex-blindagem", "nome": "Leave-in Novex Blindagem 200g", "preco": 43.9, "linha": "Blindagem" }
+    ],
+    "complementos": []
+  },
+  {
+    "id": "s-serums",
+    "legenda": "Tem na Bela Flor: séruns Efeito Secativo e Clareador",
+    "produtos": [
+      { "id": "serum-secativo", "nome": "Sérum Efeito Secativo", "preco": 14.9, "linha": null },
+      { "id": "serum-clareador", "nome": "Sérum Clareador", "preco": 14.9, "linha": null }
+    ],
+    "complementos": []
+  },
+  {
+    "id": "s-gummy",
+    "legenda": "Esmaltes Gummy Dailus",
+    "produtos": [
+      { "id": "gummy", "nome": "Esmalte Dailus Gummy (cada)", "preco": 11.9, "linha": null }
+    ],
+    "complementos": []
+  },
+  {
+    "id": "s-tutano",
+    "legenda": "Linhas Tutano, Jaborandi, Pós-Química e Mel em litro",
+    "produtos": [
+      { "id": "litro-shampoo", "nome": "Shampoo 1L (linhas Tutano, Jaborandi, Pós-Química ou Mel)", "preco": 78.9, "linha": "Litro" },
+      { "id": "litro-cond", "nome": "Condicionador 1L (linhas Tutano, Jaborandi, Pós-Química ou Mel)", "preco": 78.9, "linha": "Litro" }
+    ],
+    "complementos": [
+      { "id": "litro-mascara", "nome": "Máscara da mesma linha", "preco": 74.9, "linha": "Litro" }
+    ]
+  },
+  {
+    "id": "s-escudo",
+    "legenda": "Base Escudo de Aço Maria Pomposa",
+    "produtos": [
+      { "id": "escudo-aco", "nome": "Base Maria Pomposa Escudo de Aço", "preco": 12.9, "linha": null }
+    ],
+    "complementos": []
+  },
+  {
+    "id": "s-cronograma",
+    "legenda": "Chegou! Bio Extratus Cronograma",
+    "produtos": [
+      { "id": "cronograma", "nome": "Bio Extratus Cronograma", "preco": 26.9, "linha": "Cronograma" }
+    ],
+    "complementos": []
+  },
+  {
+    "id": "s-truss",
+    "legenda": "Tem na Bela Flor: Truss (preço não cadastrado)",
+    "produtos": [],
+    "complementos": []
+  },
+  {
+    "id": "s-pessoal",
+    "legenda": "Story pessoal da família (sem produto)",
+    "produtos": [],
+    "complementos": []
+  }
+]

@@ -1,0 +1,165 @@
+.pagina {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 16px 72px;
+}
+
+.topo h1 {
+  font-size: clamp(1.75rem, 4.2vw, 2.6rem);
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+/* A conversa de abertura: o elemento que o dono reconhece na hora */
+.cena {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 24px;
+  background: #22202b;
+  color: #f3f1f7;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.hora {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.legenda {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.cliente,
+.loja {
+  max-width: 85%;
+  padding: 10px 14px;
+  border-radius: 20px;
+  line-height: 1.4;
+}
+
+.cliente {
+  align-self: flex-start;
+  background: #3b3546;
+}
+
+.loja {
+  align-self: flex-end;
+  background: #7b4dff;
+  color: #fff;
+}
+
+.rodapeCena {
+  align-self: flex-end;
+  font-size: 0.8rem;
+  color: #8fe3c6;
+  font-weight: 600;
+}
+
+.bloco {
+  margin-bottom: 40px;
+}
+
+.bloco h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.ganhos,
+.nunca {
+  display: grid;
+  gap: 10px;
+  padding-left: 1.2rem;
+  max-width: 68ch;
+}
+
+.ganhos strong {
+  color: var(--automatico);
+}
+
+.nunca li::marker {
+  color: var(--dono);
+}
+
+.passos,
+.fases {
+  display: grid;
+  gap: 14px;
+  padding-left: 1.4rem;
+  max-width: 68ch;
+}
+
+.quando {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--tinta-suave);
+}
+
+.tabela {
+  overflow-x: auto;
+  border: 1px solid var(--linha);
+  border-radius: 12px;
+  background: var(--superficie);
+}
+
+.tabela table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.tabela th,
+.tabela td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--linha);
+}
+
+.tabela tr:last-child th,
+.tabela tr:last-child td {
+  border-bottom: 0;
+}
+
+.tabela td:nth-child(2) {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.tabela td:last-child {
+  color: var(--tinta-suave);
+  min-width: 16ch;
+}
+
+.total {
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.acoes a {
+  padding: 12px 18px;
+  border: 1px solid var(--linha);
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.acoes .principal {
+  background: var(--loja);
+  border-color: var(--loja);
+  color: #fff;
+}

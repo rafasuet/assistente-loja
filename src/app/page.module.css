@@ -1,0 +1,131 @@
+.pagina {
+  width: 100%;
+  max-width: 1080px;
+  min-width: 0;
+  margin: 0 auto;
+  padding: 48px 16px 64px;
+  overflow-wrap: anywhere;
+}
+
+.intro {
+  max-width: 68ch;
+}
+
+.sobretitulo {
+  margin-bottom: 16px;
+  color: var(--tinta-suave);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.intro h1 {
+  max-width: 27ch;
+  margin-bottom: 24px;
+  font-family: var(--font-titulo), system-ui, sans-serif;
+  font-size: clamp(2rem, 4.5vw, 3.3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.problema {
+  max-width: 68ch;
+  color: var(--tinta-suave);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.solucao {
+  max-width: 68ch;
+  margin: 28px 0 32px;
+  padding-left: 20px;
+  border-left: 3px solid var(--loja);
+}
+
+.solucao h2 {
+  margin-bottom: 12px;
+  font-family: var(--font-titulo), system-ui, sans-serif;
+  font-size: 1.1rem;
+}
+
+.solucao ol {
+  padding-left: 20px;
+}
+
+.solucao li {
+  padding-left: 4px;
+}
+
+.solucao li + li {
+  margin-top: 8px;
+}
+
+.solucao li::marker {
+  color: var(--tinta-suave);
+  font-size: 0.85rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.links a {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border: 1px solid var(--linha);
+  border-radius: 8px;
+  background: var(--superficie);
+  color: var(--tinta);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+.links .principal {
+  border-color: var(--tinta);
+  background: var(--tinta);
+  color: var(--fundo);
+}
+
+.links a:hover {
+  border-color: var(--tinta-suave);
+  text-decoration: underline;
+}
+
+.links .principal:hover {
+  border-color: var(--tinta);
+}
+
+.links a:focus-visible {
+  outline: 3px solid var(--foco);
+  outline-offset: 4px;
+}
+
+.nota {
+  max-width: 68ch;
+  margin-top: 20px;
+  color: var(--tinta-suave);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 700px) {
+  .pagina {
+    padding-top: 24px;
+  }
+
+  .intro h1 {
+    max-width: 22ch;
+  }
+
+  .links {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

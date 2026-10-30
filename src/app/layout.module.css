@@ -1,0 +1,33 @@
+.topo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+
+.marca {
+  font-family: var(--font-titulo), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  font-size: 0.95rem;
+}
+
+.nav a {
+  color: var(--tinta-suave);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: var(--tinta);
+  text-decoration: underline;
+}

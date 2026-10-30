@@ -1,0 +1,10 @@
+{
+  "nome": "Bela Flor Cosméticos",
+  "cidade": "Santa Aurora/SP",
+  "bairro": "Centro",
+  "taxaEntrega": 6,
+  "horarioEntrega": "das 9h às 17h, dentro da cidade, por moto táxi",
+  "pagamentos": ["dinheiro", "Pix", "cartão"],
+  "diasReserva": 3,
+  "telefoneLoja": null
+}
