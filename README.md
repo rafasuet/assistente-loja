@@ -79,4 +79,4 @@ npm run apresentar           # abre a demo com o nome e os preços reais, para m
 
 - **Dados fictícios:** nome da loja, cidade e preços são fictícios. Os dados reais e os prints nunca entraram no repositório.
 - **Sem integração real:** a demo simula o Direct e não está ligada ao Instagram.
-- **Vendas não medidas:** o teste mede decisões e custo, não vendas. O relatório propõe como medir a venda casada depois de implantar.
+- **Vendas não medidas:** o teste mede decisões e custo, não vendas.
