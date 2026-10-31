@@ -103,14 +103,17 @@ export default function PropostaPage() {
                 <td>Até 1.000 respostas por mês. Depois, R$ 0,035 cada.</td>
               </tr>
               <tr>
-                <th scope="row">Site do assistente</th>
-                <td>Grátis</td>
-                <td>Cabe no plano gratuito da hospedagem.</td>
+                <th scope="row">Servidor do assistente</th>
+                <td>US$ 5 a US$ 20</td>
+                <td>Fica ligado 24 horas para receber as mensagens. O plano gratuito da Vercel não permite uso comercial.</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p className={styles.total}>No volume de hoje, o custo fica em torno de {custoIA} por mês.</p>
+        <p className={styles.total}>
+          No volume de hoje, a IA fica em torno de {custoIA} por mês. A maior parte do custo é o servidor, de US$ 5 a US$ 20 por
+          mês, conforme a hospedagem escolhida.
+        </p>
       </section>
 
       <section className={styles.bloco}>

@@ -59,7 +59,7 @@ Pesquisa feita na documentação oficial da Meta em 30/10/2026.
 | Instagram: responder DMs por API | **Grátis** | A plataforma de mensagens da Meta não cobra pelo atendimento de contas profissionais. ([Meta](https://developers.facebook.com/documentation/business-messaging/messenger-platform/overview/)) |
 | WhatsApp: respostas a quem escreveu primeiro | **Grátis até 1.000 por mês**, depois R$ 0,035 cada | Regra nova de outubro de 2026, por número da loja, somando bot e pessoas. ([Meta](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing/#free-tier-of-monthly-service-messages)) |
 | App WhatsApp Business, respostas salvas e mensagem de ausência | **Grátis** | É a Fase 0. Não entende o story, mas resolve o aviso de horário e o número oficial. ([WhatsApp](https://business.whatsapp.com/products/business-app-features)) |
-| Hospedagem do assistente | Grátis no volume da loja | O plano gratuito da Vercel comporta 1.200 mensagens por mês. |
+| Hospedagem do assistente | **US$ 5 a US$ 20 por mês** | O servidor fica ligado 24 horas para receber as mensagens da Meta. O plano gratuito da Vercel aguenta o volume, mas não permite uso comercial ([Vercel](https://vercel.com/docs/limits/fair-use-guidelines)). Em produção: Vercel Pro (cerca de US$ 20) ou uma hospedagem mais barata (a partir de cerca de US$ 5). |
 
 O que torna o projeto tecnicamente viável: quando a cliente responde a um story, o webhook do Instagram informa **qual story** ela respondeu (`reply_to.story.id`). Basta ligar esse id ao produto cadastrado. ([Meta](https://developers.facebook.com/documentation/instagram-platform/webhooks/examples/#messages))
 
